@@ -1,2 +1,5 @@
 # install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# install gitlens vscode extension
+/usr/bin/code --extensions-dir="/home/${USER}/.vscode-server/extensions" --install-extension eamodio.gitlens
